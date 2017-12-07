@@ -1,3 +1,6 @@
+# Notice
+This repo was forked because I need support for passing crypto.Signer to the various jwt functions that accept asymmetric keys. The relevant issue and PR against the main repo are https://github.com/dgrijalva/jwt-go/issues/235 and https://github.com/dgrijalva/jwt-go/pull/236.
+
 A [go](http://www.golang.org) (or 'golang' for search engine friendliness) implementation of [JSON Web Tokens](http://self-issued.info/docs/draft-ietf-oauth-json-web-token.html)
 
 [![Build Status](https://travis-ci.org/dgrijalva/jwt-go.svg?branch=master)](https://travis-ci.org/dgrijalva/jwt-go)
